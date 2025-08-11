@@ -1,0 +1,11 @@
+fruit_1 = input("Enter the name of first fruit =")
+price_1 = int(input("Enter the price of first fruit ="))
+fruit_2 = input("Enter the name of second fruit =")
+price_2 = int(input("Enter the price fo second fruit ="))
+fruit_3 = input("Enter the name of third fruit =")
+price_3 = int(input("Enter the price of third fruit ="))
+
+print("Items\t  Price\n---------------")
+print(f"{fruit_1:<12}Rs. {price_1}")
+print(f"{fruit_2:<12}Rs. {price_2}")
+print(f"{fruit_3:<12}Rs. {price_3}")
